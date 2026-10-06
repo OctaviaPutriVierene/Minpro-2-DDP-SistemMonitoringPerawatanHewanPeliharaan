@@ -5,17 +5,41 @@ Kelas : A<br>
 Judul : Sistem monitoring perawatan hewan peliharaan<br>
 
 Penjelasan Program:<br>
+program ini mengimplementasikan kriteria nilai tambah dengan menerapkan **3 Library bawaan Python** sekaligus untuk memenuhi kebutuhan sistem:
 
+1. **Library `os`:** Digunakan untuk membersihkan riwayat teks terminal lewat perintah `os.system("cls")` / `os.system("clear")`.
+   
+3. **Library `time`:** Digunakan untuk memberikan jeda waktu transisi halaman konsol melalui fungsi `time.sleep()`
+   
+5. **Library `random`:** Digunakan untuk mengotomatisasi pembuatan identitas unik berupa **Kode Hewan otomatis** menggunakan fungsi `random.randint(100, 999)` saat Admin melakukan registrasi hewan baru.
+
+- tampilkan_hewan(): Menampilkan daftar seluruh hewan beserta statusnya dari sistm<br>
+- cari_hewan(): Menampilkan informasi lengkap satu hewan tertentu berdasarkan kode yang dicari<br>
+- update_makan(): Mengubah status makan hewan menjadi "Sudah" atau "Belum"<br>
+- update_minum(): Mengubah status minum hewan menjadi "Sudah" atau "Belum"<br>
+- tambah_hewan(): Membuat data hewan baru dengan kode unik yang diacak secara otomatis.
+  
+- hapus_hewan(): Menghapus data hewan tertentu dari sistem berdasarkan kodenya.
+  
+- reset_status(): Mengembalikan status makan dan minum semua hewan menjadi "Belum" secara massal.
+  
+- login(): Memvalidasi akun untuk menentukan hak akses menu atau menghentikan program via kata kunci "stop".
+
+- Sistem Login, Memvalidasi akun dan membagi hak akses berdasarkan role. Ketik "stop" pada username untuk mematikan program<br>
+- Menu Admin (8 Opsi), Hak akses penuh untuk melihat, mencari, menambah (kode acak otomatis), menghapus, memperbarui status (makan/minum), dan mereset seluruh data hewan.
+  
+- Menu User (5 Opsi), Hak akses terbatas hanya untuk melihat, mencari, dan memperbarui status makan/minum hewan saja.
+   
 Penjelasan Flowchart:<br>
 Alur Login Sistem Monitoring
 
-• Mulai & Input: Program dimulai dengan menampilkan menu login, lalu pengguna diminta memasukkan username.
+- Mulai & Input: Program dimulai dengan menampilkan menu login, lalu pengguna diminta memasukkan username.
 
-• Fitur Stop: Jika username yang diketik adalah "stop", program langsung berhenti otomatis.
+- Fitur Stop: Jika username yang diketik adalah "stop", program langsung berhenti otomatis.
 
-• Validasi Akun: Jika bukan "stop", pengguna memasukkan password. Sistem akan memeriksa apakah username terdaftar dan password-nya benar. Jika salah, muncul pesan kesalahan.
+- Validasi Akun: Jika bukan "stop", pengguna memasukkan password. Sistem akan memeriksa apakah username terdaftar dan password-nya benar. Jika salah, muncul pesan kesalahan.
 
-• Pengecekan Role: Jika login berhasil, sistem memisahkan hak akses:
+- Pengecekan Role: Jika login berhasil, sistem memisahkan hak akses:
 
   1. Jika akun adalah Admin, pengguna diarahkan ke Menu Admin.<br>
   Setelah masuk sebagai Admin, sistem menampilkan 8 opsi menu<br>
@@ -23,6 +47,7 @@ Alur Login Sistem Monitoring
   Setelah masuk sebagai Pengguna biasa, sistem menampilkan 5 opsi menu dengan hak akses yang lebih terbatas
 
 <img width="401" height="689" alt="image" src="https://github.com/user-attachments/assets/32e43b7c-78de-49d8-8748-e7322392bd04" />
+
 
 <img width="357" height="545" alt="image" src="https://github.com/user-attachments/assets/b17e7167-fb50-4458-a41b-f430a160abda" />
 
@@ -71,5 +96,7 @@ Ketika Admin memilih menu 7, maka admin dapat menghapus status yang tadinya suda
 Output Menu 8 dan 5:<br>
 Ketika Admin/ Pengguna memilih 8 dan 5, maka akan dia arahkan keluar dari menu.<br>
 <img width="302" height="110" alt="image" src="https://github.com/user-attachments/assets/5f38ad9d-439b-4fbc-894a-ee5fce04a513" />
+
+
 
 
