@@ -46,5 +46,8 @@ Output Menu 7:<br>
 Ketika Admin memilih menu 7, maka admin dapat menghapus status yang tadinya sudah menjadi belum<br>
 <img width="386" height="301" alt="image" src="https://github.com/user-attachments/assets/b346b29d-c6b7-4830-8340-3e511d244b6a" />
 
+Output Menu 8 dan 5:<br>
+Ketika Admin/ Pengguna memilih 8 dan 5, maka akan dia arahkan keluar dari menu.<br>
+<img width="302" height="110" alt="image" src="https://github.com/user-attachments/assets/5f38ad9d-439b-4fbc-894a-ee5fce04a513" />
 
 
