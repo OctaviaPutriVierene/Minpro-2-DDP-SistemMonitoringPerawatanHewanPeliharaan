@@ -23,6 +23,10 @@ program ini mengimplementasikan kriteria nilai tambah dengan menerapkan **3 Libr
   
 - reset_status(): Mengembalikan status makan dan minum semua hewan menjadi "Belum" secara massal.
   
+- menu_admin(): Menampilkan dan memproses 8 pilihan menu khusus untuk akun Admin.
+  
+- menu_pengguna(): Menampilkan dan memproses 5 pilihan menu terbatas untuk akun Pengguna
+  
 - login(): Memvalidasi akun untuk menentukan hak akses menu atau menghentikan program via kata kunci "stop".
 
 - Sistem Login, Memvalidasi akun dan membagi hak akses berdasarkan role. Ketik "stop" pada username untuk mematikan program<br>
