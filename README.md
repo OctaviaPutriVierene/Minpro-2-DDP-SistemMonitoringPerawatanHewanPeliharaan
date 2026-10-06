@@ -5,11 +5,11 @@ Kelas : A<br>
 Judul : Sistem monitoring perawatan hewan peliharaan<br>
 
 Penjelasan Program:<br>
-program ini mengimplementasikan kriteria nilai tambah dengan menerapkan **3 Library bawaan Python** sekaligus untuk memenuhi kebutuhan sistem:
+program ini mengimplementasikan kriteria nilai tambah dengan menerapkan **3 Library bawaan Python**:
 
 1. **Library `os`:** Digunakan untuk membersihkan riwayat teks terminal lewat perintah `os.system("cls")` / `os.system("clear")`.
    
-3. **Library `time`:** Digunakan untuk memberikan jeda waktu transisi halaman konsol melalui fungsi `time.sleep()`
+3. **Library `time`:** Digunakan untuk memberikan jeda waktu transisi halaman melalui fungsi `time.sleep()`
    
 5. **Library `random`:** Digunakan untuk mengotomatisasi pembuatan identitas unik berupa **Kode Hewan otomatis** menggunakan fungsi `random.randint(100, 999)` saat Admin melakukan registrasi hewan baru.
 
