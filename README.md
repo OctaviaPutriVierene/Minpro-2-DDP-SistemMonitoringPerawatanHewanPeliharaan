@@ -8,7 +8,7 @@ Penjelasan:<br>
 
 
 
-<h3.Output Login Admin:<br><\h3>
+<h3>Output Login Admin:<br> <\h3> 
 Saat pertama kali program dijalankan, sistem akan meminta pengguna untuk memasukkan *username* dan *password*
 <img width="324" height="413" alt="image" src="https://github.com/user-attachments/assets/f6a839c0-84dc-4e60-a576-09629abb1432" />
 Jika, berhasil login sebagai ADMIN maka sistem akan menampilkan 8 menu.<br>
