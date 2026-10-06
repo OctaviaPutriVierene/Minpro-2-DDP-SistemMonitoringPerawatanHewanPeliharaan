@@ -4,8 +4,30 @@ NIM   : 2609116012<br>
 Kelas : A<br>
 Judul : Sistem monitoring perawatan hewan peliharaan<br>
 
-Penjelasan:<br>
+Penjelasan Program:<br>
 
+Penjelasan Flowchart:<br>
+Alur Login Sistem Monitoring
+
+• Mulai & Input: Program dimulai dengan menampilkan menu login, lalu pengguna diminta memasukkan username.
+
+• Fitur Stop: Jika username yang diketik adalah "stop", program langsung berhenti otomatis.
+
+• Validasi Akun: Jika bukan "stop", pengguna memasukkan password. Sistem akan memeriksa apakah username terdaftar dan password-nya benar. Jika salah, muncul pesan kesalahan.
+
+• Pengecekan Role: Jika login berhasil, sistem memisahkan hak akses:
+
+  1. Jika akun adalah Admin, pengguna diarahkan ke Menu Admin.<br>
+  Setelah masuk sebagai Admin, sistem menampilkan 8 opsi menu<br>
+	2. Jika bukan Admin (Pengguna), diarahkan ke Menu Pengguna.<br>
+  Setelah masuk sebagai Pengguna biasa, sistem menampilkan 5 opsi menu dengan hak akses yang lebih terbatas
+
+<img width="401" height="689" alt="image" src="https://github.com/user-attachments/assets/32e43b7c-78de-49d8-8748-e7322392bd04" />
+
+<img width="357" height="545" alt="image" src="https://github.com/user-attachments/assets/b17e7167-fb50-4458-a41b-f430a160abda" />
+
+
+<img width="477" height="641" alt="image" src="https://github.com/user-attachments/assets/346b7c4a-a3ac-4b20-a7e4-ccd9338765b8" />
 
 
 Output Login Admin:<br> 
