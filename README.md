@@ -20,9 +20,16 @@ Output Login User:<br>
 
 Jika, berhasil login sebagai USER/PENGGUNA maka sistem akan menampilkan 5 menu.<br>
 
-Output Tambah Hewan:<br>
+Output Menu 5:<br>
 <img width="361" height="381" alt="image" src="https://github.com/user-attachments/assets/79401196-e07b-4382-aa2f-1490cb98813a" />
 
 Ketika kita login sebagai admin dan memilih menu 5, library `random` akan membuatkan 3 digit kode acak secra otomatis. Lalu admin dapat menginput nama dan jenis hewan<br>
+
+Output Menu 1:<br>
+Ketika Admin/User memilih menu 1, sistem akan menampilkan  semua data hewan yang terdaftar.<br>
+<img width="312" height="253" alt="image" src="https://github.com/user-attachments/assets/5492eddd-5f15-44ad-a961-af12c570176b" />
+
+Output Menu 2:<br>
+
 
 
